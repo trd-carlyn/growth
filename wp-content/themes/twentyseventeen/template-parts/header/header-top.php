@@ -23,7 +23,6 @@
 					<a href="/店舗案内/"><img src ="../img/reserve-call.png" alt="reserve-call"></a>
 					<a href="/ご予約/"><img src ="../img/reserve-form.png" alt="reserve-form"></a>
 				</div>
-				
 				</div>
 			<div class="navigation">
 				<div class="main-menu">
