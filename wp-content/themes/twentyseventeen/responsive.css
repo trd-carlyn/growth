@@ -1,0 +1,259 @@
+
+/*----------------------------------------------------------------------------------------------------
+				Responsive Style
+------------------------------------------------------------------------------------------------------*/
+/*Responsive Styles*/
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #33542a;
+	text-align: center;
+	display: none;
+}
+input[type=checkbox]{
+	display: none;
+}
+input[type=checkbox]:checked ~ .header-menu{
+	display: block;
+}
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0px;
+	padding-top:7px;
+}
+
+li {
+	display:inline-block;
+	margin-right: 1px;
+}
+
+li ul {
+	display: none;
+}
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 20px 20px;
+}
+@media only screen and (max-width: 767px){
+	.main-header {
+		width: 100%;
+		overflow: hidden;
+	}
+	.header-logo img {
+    width: 85%;
+	}
+	
+	label.show-menu {
+		cursor: pointer;
+	}
+	.show-menu {
+	display:block;
+	height:auto;
+	}
+	.main-menu ul li {	
+		padding: 5px !important;
+		text-align: center !important;
+		background-color: rgba(204, 204, 204, 0);
+	}
+	.main-menu {
+		height: 19px;
+		width: 100%;
+	}
+	ul {
+		position: static;
+		display: none;
+	}
+	ul li, li a {
+		width: 100%;
+	}
+	ul.header-menu, ul.header-menu li a {
+    background-color: rgba(204, 204, 204, 0.46);
+}
+	.navigation {
+	    height:60px;
+	    width: 100%;
+	}
+	.header-logo {
+	    width: 100%;
+	    float: none;
+	    padding: 0 !important;
+	    margin-top: 4px;
+	    margin-bottom: 6px;
+	}
+	label.show-menu {
+	    cursor: pointer;
+	    height: 43px;
+	    padding-top: 8px;
+	    padding-right: 24px;
+	    background-color: rgba(204, 204, 204, 0.38);
+	}
+	.menu-links ul li {
+	    padding: 5px !important;
+	    text-align: center !important;
+	    background: #28d258;
+	}
+	
+	.menu-links{
+	    height: 19px;
+	    width: 100%;
+	}
+	.navigation ul {
+           position: static;
+	    display: none;
+	}
+	.navigation ul li, li a {
+           width: 100%;
+	}
+	.menu-links ul li:after {
+    	    content: "";
+    	    margin-left: 0;
+	}
+	.menu-links ul li:nth-child(1):before {
+	    content: "";
+	    margin: 0;
+	}
+	 #masthead{
+		width:90%;
+		display:block;
+	 }
+	 .mast-header {
+	    /* display: inline-flex; */
+	    width: 100%;
+	    margin-top: 10px;
+	    margin-left: 25px;
+	    display:block;
+	}
+	.nav-footer-main{
+		display:none;
+	}
+	.article {
+	    width: 100%;
+	    /*clear: both;
+	    float: left;*/
+	    display:block;
+	}
+	.featured{
+		display:block;
+		text-align:center;
+	}
+	.top-link,{
+		margin:0 auto;
+		text-align:center;
+	}
+	.hair-growth{
+		width:100%;
+	}
+	.hair-growth-feature{
+		width:100%;
+	}
+	.hairgrowth-feature{
+		display:block;
+		margin:0 auto;
+		
+	}
+	.hairgrowth-feature > p{
+		margin:0 auto;
+	}
+	#post-18 > div > div > div.container > div.article > div.hair-growth > div > div:nth-child(3) > img{
+		margin:0 auto;
+		margin-left:15%;
+		margin-right:15%;
+	}
+	#post-18 > div > div > div.container > div.article > div.hair-growth > div > div:nth-child(5) > img{
+		margin-left:1%;
+		margin-right:1%;
+	}
+	.campaign {
+	    margin-top: 16px;
+	    position: relative;
+	    margin-right: auto;
+	    margin-left:auto;
+	}
+	div#thumbnail-container {
+    margin:0 auto;
+	}
+	article.thumbnail-layout.lptw-columns-fixed{
+	    width: 80% !important;
+	    padding-right: 10px;
+	    padding-bottom: 10px;
+	    clear: left;
+	}
+	.top-link4{
+		margin-left:auto;
+		margin-right:auto;
+		clear:both;
+	}
+	.treatment {
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    }
+    .sidebar {
+    width: 100%;
+	}
+	.calendar-info{
+		width:100%;
+	}
+	.side-menu {
+	    width: 60%;
+	    margin: auto;
+	}
+	#footer{
+		display:block;
+		width:90%;
+		clear:both;
+	}
+	#footer > div.header-logo a img{
+		margin-top:15px;
+		width: auto;
+    	margin-left: 6%;
+	}
+	#footer > .footer-social{
+		clear:both;
+		margin-left:49%;
+		margin-right:49%;
+		width: inherit;
+	}
+	.call-bottom{
+		clear: both;
+	    margin-right: 16%;
+	    margin-left: 29%;
+	    width: auto;
+	}
+	#footer > div.call-bottom > a > img {
+    width: 100%;
+}
+	.calendar{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.contact-info {
+	    margin: 0 auto;
+	    position: relative;
+	    float: initial;
+	}
+	.reserve-form{
+		clear:both;
+	}
+	.reserve-map{
+		clear:both;
+		margin:0 auto;
+		text-align:center;
+		width: -webkit-fill-available;
+	}
+	h4.calendar{
+		text-align:center;
+		width: 90%;
+    	margin: 0 auto;
+	}
+	div#sbc-calendar-wrapper{
+		width:100%;
+		margin:0 auto;
+	}
+	#sbc-calendar {
+    width: 62%;
+    /* margin: 0 auto; */
+    margin-left: 23%;
+}

@@ -1,0 +1,221 @@
+/*header style*/
+body{
+	background-color: #f1f1f1;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
+}
+.container {
+    padding-top: 10px;
+    /*background-color: #f9f3f3;*/
+    width: 100%;
+    height: auto;
+}
+.mast-header {
+    /*display: inline-flex;*/
+    width: 1268px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.header{
+	width:1980px;
+}
+.header-logo {
+    width: 250px;
+    height: auto;
+    margin:5px 450px 0 15px;
+    float:left;
+}
+.reserve-map {
+    /* background-color: #ccc; */
+    width: 82px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 5px;
+    padding-left: 5px;
+    float: right;
+    margin-top: 6px;
+}
+.reserve-call{
+    margin: 5px 0 0 5px;
+    float:right;
+}
+.reserve-form{
+	margin-top:5px;
+	float: right;
+}
+/*header end*/
+/*navigation*/
+.navigation {
+    clear: both;
+    width: 1232px;
+}
+.menu-links,.social-links {
+    display: inline;
+}
+ul {
+    display: flex;
+}
+.menu-links > ul li {
+    display: inline;
+    margin: 25px;
+    float: left;
+    clear: both;
+}
+.social-links {
+    float: right;
+    margin-top: -71px;
+}
+.social-links > ul li {
+    display: inline;
+    margin-left: 25px;
+}
+.header-top-thumbnail > img{
+	width:100%;
+}
+/*content*/
+.article {
+    width: 1000px;
+}
+.features {
+    text-align: center;
+}
+.featured {
+    display: flex;
+}
+.featured-image {
+    margin-left: 23px;
+    font-size: 14px;
+}
+h2.mb-feature {
+    font-family: "hiragino kaku gothic";
+}
+span {
+    display: block;
+}
+.featured-image >h3 {
+    text-align: center;
+    font-size: 19px;
+    font-weight:normal;
+}
+.article.feature > img{
+	width:100%;
+	height: auto;
+}
+.top-link {
+    float: right;
+}
+.hair-growth {
+    background-color: rgba(216, 216, 216, 0.26);
+    margin-top: 98px;
+    align-content: center;
+    border:solid rgba(216, 216, 216, 0.05);
+    border-radius: 20px;
+    width: 1000px;
+}
+.hair-growth-feature {
+    width: 900px;
+    margin: 0 auto;
+    height: auto;
+}
+.feature2 {
+    text-align: center;
+    font-weight: normal;
+    font-family: "ヒラギノ角ゴ Pro W3";
+}
+.title-feature {
+    text-align: center;
+    font-size: 15px;
+       font-weight: bolder;
+    font-family: helvetica;
+}
+.hairgrowth-feature {
+    display: inline-flex;
+    font-weight: 800;
+    font-family: helvetica;
+    font-size: 17px;
+    border: 1px solid#ccc;
+    border-color:black;
+    /*border-right-color: black;
+    border-left-color: black;*/
+}
+span.red {
+    color: red;
+    font-size: 17px;
+    /* text-decoration: underline; */
+    font-weight: 900;
+}
+/*body > div > div.content > div > div > div > div.hair-growth > div > div:nth-child(3) > img{
+    width: 325px;
+    height: 257px;
+    margin: 0 auto;
+}
+
+body > div > div.content > div > div > div > div.hair-growth > div > div:nth-child(5) > img{
+    width: 508px;
+    height: 257px;
+}*/
+body > div > div.content > div > div > div > div.hair-growth > div > div:nth-child(6) {
+    border: none;
+}
+.link {
+    display: flex;
+    text-align: right;
+    margin-left: 487px;
+    margin-top: 15px;
+    margin-bottom:30px;
+}
+.top-link2 {
+    margin-right: 10px;
+}
+.top-link3{
+	margin-left: 10px;
+}
+.campaign {
+    margin-top: 16px;
+    position: relative;
+    margin-left: 107px;
+    margin-right: auto;
+}
+.latest-information {
+    margin-left: 65px;
+}
+h2.information-title {
+    text-align: center;
+    font-family: helvetica;
+}
+.info-1 {
+    display: flex;
+    position:relative;
+}
+.box-1,.box-2,.box-3 {
+    margin-right: 24px;
+    margin-top: 15px;
+}
+div.info-category > img {
+    margin-top: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.info {
+    display: flex;
+}
+.article-title {
+    width: 236px;
+    margin-top: -15px;
+}
+.information {
+    font-weight: 500;
+    font-family: helvetica
+}
+.top-link4 {
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.treatment {
+    clear: both;
+    text-align: center;
+}
+.mastfooter {
+    background-image: url(/img/bg.png);
+}

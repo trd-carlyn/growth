@@ -1,0 +1,19 @@
+<div class="navigation">
+					<div class="menu-links">
+						<ul>
+							<li> <a href="#">HOME</a> </li>
+							<li><a href="#">  マイクロバブルにて </a></li>
+							<li><a href="#"> 施術事例  </a></li>
+							<li><a href="#">施術の流れ </a></li>
+							<li><a href="#"> 料金  </a></li>
+							<li><a href="#">  店舗案内 </a></li>
+						</ul>
+					</div>
+				<div class="social-links">
+					<ul>
+						<li> <a href =""> <img src ="/img/fb.png" alt="fb"> </a></li>
+						<li> <a href =""> <img src ="/img/amebo.png" alt="amebo"> </a></li>
+						<li> <a href =""> <img src ="/img/insta.png" alt="insta"> </a></li>
+					</ul>
+				</div>
+</div>
