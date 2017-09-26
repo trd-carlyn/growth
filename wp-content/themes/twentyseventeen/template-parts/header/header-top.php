@@ -9,15 +9,14 @@
  */
 
 ?>
-
-<div class="main-header">
+	<div class="main-header">
 			<div class="mast-header">
 				<div class="header-logo">
 					<a href="http://regrowth1.localhost/"><img src ="../img/regrowth.png" alt="regrowth"> </a>
 				</div>
 				<div class="map">
 					<div class="reserve-map">
-						<a href="/店舗案内/アクゼス/"><p> アクゼス  &gt; MAP </p></a>
+						<a href="/店舗案内/#location"><p>  &gt;アクゼス  MAP </p></a>
 					</div>
 				<div class ="reserve-form">
 					<a href="/店舗案内/"><img src ="../img/reserve-call.png" alt="reserve-call"></a>
@@ -26,7 +25,7 @@
 				</div>
 			<div class="navigation">
 				<div class="main-menu">
-					<label for ="show-menu" class="show-menu"> &#9776; Menu</label>
+					<label for ="show-menu" class="show-menu"><img src="/img/bg_burger.png"></label>
 					<input type="checkbox" id="show-menu" role="button">
 						<ul class="header-menu">
 							<li> <a href="http://regrowth1.localhost/">HOME</a> </li>
@@ -46,4 +45,3 @@
 					</ul>
 				</div>
 			</div>
-			

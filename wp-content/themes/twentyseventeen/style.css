@@ -50,7 +50,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 1.0 Normalize
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
-
+@media screen and (min-width: 769px) {
+   body{
+    	min-width: 1000px;
+    }
+}
 html {
 	font-family: sans-serif;
 	line-height: 1.15;
@@ -1323,7 +1327,7 @@ a:hover .nav-title,
 }
 
 .navigation-top .wrap {
-	max-width: 1000px;
+	/*max-width: 1000px;*/
 	padding: 0;
 }
 
@@ -1499,527 +1503,7 @@ a:hover .nav-title,
 .site-header .menu-scroll-down {
 	display: none;
 }
-.mast-header {
-	/*display: inline-flex;*/
-	width: 1268px;
-	background-color: #fff;
-	margin-top: 10px;
-	margin-left: 25px;
-}
-.header{
-	width:1980px;
-}
-.header-logo {
-	width: 332px;
-	height: auto;
-	/*margin: 8px 42px 0 15px;*/
-	float: left;
-}
-#footer > div.header-logo {
-    margin-top: 8px;
-    margin-left: 44px;
-}
-#footer > .footer-social {
-	margin-top: 23px;
-	display: inline;
-	margin-left: 5px;
-	width:23px;
-}
-div#footer {
-    padding: 15px;
-}
-.reserve-map {
-	/* background-color: #ccc; */
-	width: 124px;;
-	font-size: 14px;
-	text-align: center;
-	margin-left:359px;
-	padding-left: 5px;
-	float: left;
-	margin-top: 7px;
-}
-.reserve-call{
-	margin: 5px 0 0 5px;
-	float:right;
-}
-.reserve-form{
-	margin-top:5px;
-	float: right;
-}
-/*header end*/
-/*navigation*/
-.navigation {
-	clear: both;
-	width: 1232px;
-}
-.menu-links,.social-links {
-	display: inline;
-}
-ul {
-	display: flex;
-}
-.menu-links > ul li {
-	display: inline;
-	margin: 25px;
-	float: left;
-	clear: both;
-}
-.social-links {
-	float: right;
-	margin-top: -34px;
-}
-.social-links > ul li {
-	display: inline;
-	margin-left: 25px;
-}
-.header-top-thumbnail > img{
-	width:100%;
-}
-li:hover {
-	text-decoration: underline;
-	/* text-decoration-color: red; */
-}
-.article {
-	width: 1000px;
-	clear: both;
-	float: left;
-}
-.features {
-	text-align: center;
-}
-.featured {
-	display: flex;
-}
-.featured-image {
-	margin-left: 23px;
-	font-size: 14px;
-}
-h2.mb-feature {
-	font-family: "hiragino kaku gothic";
-}
-span {
-	display: block;
-	font-weight: 600;
-	color: black;
-}
-.featured-image >h3 {
-	text-align: center;
-	font-size: 19px;
-	font-weight: 900;
-}
-.featured-image > p {
-	font-weight: 900;
-}
-.article.feature > img{
-	width:100%;
-	height: auto;
-}
-.top-link {
-	float: right;
-}
-.hair-growth {
-	background-color: rgba(216, 216, 216, 0.52);
-	margin-top: 98px;
-	align-content: center;
-	border:solid rgba(216, 216, 216, 0.05);
-	border-radius: 20px;
-	width: 1000px;
-}
-.hair-growth-feature {
-	width: 900px;
-	margin: 0 auto;
-	height: auto;
-	margin-top: 50px;
-}
-.feature2 {
-	text-align: center;
-	font-weight: normal;
-	font-family: "ヒラギノ角ゴ Pro W3";
-}
-.title-feature {
-	text-align: center;
-	font-size: 15px;
-	   font-weight: bolder;
-	font-family: helvetica;
-}
-.title-feature2 {
-	margin-top: 34px;
-	background-color: black;
-	padding-top: 9px;
-	/* padding-bottom: 1px; */
-	text-align: center;
-	color: white;
-	font-weight: 700;
-	height: 36px;
-}
-.hairgrowth-feature {
-	display: inline-flex;
-	font-weight: 800;
-	font-family: helvetica;
-	font-size: 17px;
-	border: 1px solid#ccc;
-	border-color:black;
-	/*border-right-color: black;
-	border-left-color: black;*/
-}
-span.red {
-	color: red;
-	font-size: 17px;
-	/* text-decoration: underline; */
-	font-weight: 900;
-}
-/*body > div > div.content > div > div > div > div.hair-growth > div > div:nth-child(3) > img{
-	width: 325px;
-	height: 257px;
-	margin: 0 auto;
-}
-body > div > div.content > div > div > div > div.hair-growth > div > div:nth-child(5) > img{
-	width: 508px;
-	height: 257px;
-}*/
-body > div > div.content > div > div > div > div.hair-growth > div > div:nth-child(6) {
-	border: none;
-}
-.link {
-	display: flex;
-	text-align: right;
-	margin-left: 487px;
-	margin-top: 15px;
-	margin-bottom:30px;
-}
-.top-link2 {
-	margin-right: 10px;
-}
-.top-link3{
-	margin-left: 10px;
-}
-.campaign {
-	margin-top: 16px;
-	position: relative;
-	margin-left: 107px;
-	margin-right: auto;
-}
-.latest-information {
-	margin-left: 65px;
-}
-h2.information-title {
-	text-align: center;
-	font-family: helvetica;
-	margin-top: 31px;
-}
-.info-1 {
-	display: none;
-	position:relative;
-}
-.box-1,.box-2,.box-3 {
-	margin-right: 24px;
-	margin-top: 15px;
-}
-div.info-category > img {
-	margin-top: 16px;
-	margin-left: 12px;
-	margin-right: 12px;
-}
-.info {
-	display: flex;
-}
-.article-title {
-	width: 236px;
-	margin-top: -15px;
-}
-.information {
-	font-weight: 500;
-	font-family: helvetica
-}
-.top-link4 {
-	float: right;
-	margin-top: 15px;
-	margin-bottom: 25px;
-}
-.treatment {
-	clear: both;
-	text-align: center;
-	margin-left: 43px;
-}
-.mastfooter {
-	background-image: url(/img/bg.png);
-}
-.nav-footer {
-	background-color: #ccc;
-	height: auto;
-	padding-bottom: 1px;
-}
 
-.nav-footer-main {
-	margin-left: 174px;
-	padding-top: 10px;
-	/* padding-bottom: 1px; */
-	font-weight: 700;
-}
-.nav-footer-main > ul li {
-	display: inline;
-}
-.nav-footer-main > ul li:before{
-	content:"/";
-	margin:17px;
-}
-#colophon > div > div.footer > div.nav-footer > div > ul > li:nth-child(1):before{
-	display:none;
-}
-.call-bottom {
-	float: right;
-	margin-top: 18px;
-	margin-right: 48px;
-	padding-bottom: 25px;
-}
-#colophon > div > div.footer > div.mastfooter > div.header-logo > img {
-	margin-top: 10px;
-	margin-left: 50px;
-}
-#footer > .footer-social {
-    float: left;
-    margin-left: 56px;
-    display: inline-flex;
-    width: auto;
-    }
-header.entry-header {
-	display: none;
-}
-.contact-info {
-	margin: 0 auto;
-	margin-left: 42px;
-	width:  362px;
-	color: white;
-	float: left;
-}
-.calendar {
-	float: left;
-	color: white;
-}
-.copyright{
-	clear:both;
-	text-align:center;
-	color:white;
-	margin-top: 15px;
-	margin-bottom: 19px;
-	padding: 15px;
-}
-.wrap {
-	clear: both;
-}
-.sidebar {
-	float: right;
-	width: 334px;
-}
-.calendar-info {
-	margin: 0 auto;
-	text-align: center;
-}
-.calendar > h2.sbc-title {
-	display: none;
-}
-.side-nav-menu {
-	margin: 0 auto;
-	text-align: center;
-}
-h4.menu-title {
-	text-align: center;
-	color: black;
-	font-weight: 700;
-}
-ul#side-menu {
-	display: block;
-	text-decoration: none;
-	list-style-type: none;
-	text-align: center;
-	font-weight: 600;
-}
-ul#side-menu > li {
-	border-bottom: 1px solid #ccc;
-	border-bottom-style: dotted;
-	padding: 10px;
-	/* width: 328px; */
-}
-ul#side-menu li a:hover {
-	opacity: 2;
-}
-ul li a:hover{
-	text-decoration-color: red;
-}
-ul li a:visited{
-	text-decoration:underline;
-    text-decoration-color:red;
-    color: red;
-}
-ul.header-menu {
-	display: flex;
-	font-weight: 600;
-}
-	
-.fb-page {
-	margin-top: 10px;
-	margin-bottom:10px;
-}
-.amebo-page {
-	margin-top: 5px;
-	margin-bottom: 10px;
-}
-h2.posts {
-	text-align: center;
-	font-weight: 600;
-	color: black;
-	font-size: 15px;
-	padding-top: 15px;
-}
-.posts {
-	width: 210px;
-	text-align: center;
-	background-color: #ccc;
-	height: 313px;
-	margin: auto;
-}
-.side-menu {
-	width: 210px;
-	margin: auto;
-}
-h5.calendar{
-	text-align: center;
-	margin-left: 97px;
-	}
-.calendar-info > #sbc-calendar {
-	float: left;
-	margin: 0 63px 30px 63px !important;
-	width: 210px !important;
-}
-h2.sbc-title {
-	font-weight: 500;
-	color: black;
-	font-size: 22px;
-	display: none;
-}
-container {
-	padding-top: 10px;
-	/*background-color: #f9f3f3;*/
-	width: 100%;
-	height: auto;
-}
-#post-18 > div > div > div.container > div.article > div.hair-growth > div > div:nth-child(3):after {
-	color: #efeaea;
-	border: 20px solid;
-	background-color: #f1f1f1;
-	position: relative;
-	margin: 0 auto;
-	content: "";
-	width: 15px;
-	top: 308px;
-	height: 0px;
-	border-image: none;
-   border-color: rgba(0, 0, 0, 0.95) transparent rgba(241, 241, 241, 0) transparent;
-	left: -435px;
-}
-.hair-growth:before {
-	color: rgba(255, 255, 255, 0);
-	border: 20px solid;
-	background-color: rgba(243, 243, 243, 0.12);
-	position: absolute;
-	/* margin: 0 auto; */
-	content: "";
-	/* width: 15px; */
-	/* top: 176px; */
-	height: 0px;
-	border-image: none;
-	border-color: rgba(0, 0, 0, 0) transparent rgb(235, 235, 235) transparent;
-	margin-left: 450px;
-	margin-top: -43px;
-}
-div#thumbnail-container {
-	margin-left: 105px;
-}
-h4.calendar {
-	text-align: center;
-	margin: 0 auto;
-	padding-left: 81px;
-	font-family: helvetica;
-	padding-top: 15px;
-	padding-bottom: 16px;
-}
-#post-18 > div > div > div.container > div.article > div.features > h2 > span > span:before ,
-h2.hg-feature > span:before,h2.information-title > span:before{
-	content: "";
-	color: rgba(76, 68, 68, 0.24);
-	position: absolute;
-	border: 1px solid;
-	width: 28px;
-}
-#post-18 > div > div > div.container > div.article > div.features > h2 > span > span:before {
-	left: 411px;
-	top: 842px;
-}
-h2.hg-feature > span:before {
-	left: 386px;
-	top: 1529px;
-}
-h2.information-title > span:before{
-	left:434px;
-	top:2579px;
-}
-
-#post-18 > div > div > div.container > div.article > div.features > h2 > span > span:after,
-h2.hg-feature > span:after,h2.information-title > span:after {
-	content: "";
-	color: rgba(76, 68, 68, 0.24);
-	position: absolute;
-	border: 1px solid;
-	width: 28px;
-}
-#post-18 > div > div > div.container > div.article > div.features > h2 > span > span:after {
-	left: 567px;
-	top: 842px;
-}
-h2.hg-feature > span:after{
-	left: 580px;
-	top: 1529px;
-}
-h2.information-title > span:after{
-	left:598px;
-	top:2579px;
-}
-h4.calendar > span:before {
-	content: "";
-	color: rgba(76, 68, 68, 0.24);
-	position: absolute;
-	border: 1px solid;
-	width: 28px;
-	right: 266px;
-	top: 492px;
-}
-h4.calendar > span:after {
-	content: "";
-	color: rgba(76, 68, 68, 0.24);
-	position: absolute;
-	border: 1px solid;
-	width: 28px;
-	right: 69px;
-	top: 492px;
-}
-h4.menu-title:before{
-	content: "";
-	color: rgba(76, 68, 68, 0.24);
-	position: absolute;
-	border: 1px solid;
-	width: 71px;
-	right: 214px;
-	top: 833px;
-}
-h4.menu-title:after{
-	content: "";
-	color: rgba(76, 68, 68, 0.24);
-	position: absolute;
-	border: 1px solid;
-	width: 71px;
-	right: 53px;
-	top: 833px;
-}
 /*--------------------------------------------------------------
 13.0 Layout
 --------------------------------------------------------------*/
@@ -4804,17 +4288,1284 @@ object {
 		padding: 0;
 	}
 }
-#masthead > div > div > div.navigation > div > ul > li {
-    margin-right: 55px;
-}
 #footer > div.footer-social > ul > li > a > img {
     max-width: max-content;
 }
+/*----------------------------------------------------------------------
+			 HOME Page (1)
+------------------------------------------------------------------------*/
+.mast-header {
+	/*display: inline-flex;*/
+	width: 1268px;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-left: 25px;
+ position: relative;
+}
+.header{
+	width:1980px;
+}
+.header-logo {
+	width: 332px;
+	height: auto;
+	/*margin: 8px 42px 0 15px;*/
+	float: left;
+}
+#masthead > div > div > div.navigation > div > ul > li {
+    margin-right: 55px;
+    font-size: 1.0em;
+	}
+#footer > div.header-logo {
+    margin-top: 8px;
+    margin-left: 44px;
+}
+#footer > .footer-social {
+	margin-top: 23px;
+	display: inline;
+	margin-left: 5px;
+	width:23px;
+}
+div#footer {
+    padding: 15px;
+}
+.reserve-map {
+    /* background-color: #ccc; */
+    /* width: 124px; */
+    /* font-size: 14px; */
+    /* text-align: center; */
+    /* margin-left: 359px; */
+    /* padding-left: 5px; */
+    /* float: left; */
+    position: absolute;
+    right: 52%;
+    margin-top: 13px;
+    z-index: 12;
+}
+.reserve-call{
+	margin: 5px 0 0 5px;
+	float:right;
+}
+.reserve-form {
+    margin-top: 5px;
+    /* float: right; */
+    position: absolute;
+    right: 21%;
+    z-index: 1;
+}
+/*header end*/
+/*navigation*/
+.navigation {
+    /* clear: both; */
+    /* width: 1232px; */
+    /* margin: 0 auto; */
+    position: absolute;
+    /* top: 100%; */
+    z-index: 1;
+    left: 3%;
+    margin-top: 5%;
+}
+.menu-links,.social-links {
+	display: inline;
+}
+ul {
+	display: flex;
+}
+.menu-links > ul li {
+	display: inline;
+	margin: 25px;
+	float: left;
+	clear: both;
+}
+.social-links {
+    /* float: right; */
+    /* margin-top: -34px; */
+    position: absolute;
+    margin-left: 58%;
+    /* margin-right: -8%; */
+    z-index: 1;
+    margin-top: 5%;
+    /* bottom: 0; */
+    /* margin: 0 auto; */
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.social-links > ul li {
+	display: inline;
+	margin-left: 25px;
+}
+.header-top-thumbnail > img{
+	width:95%;
+}
+.header-thummbnail {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* margin: 0 auto; */
+    width: 100%;
+    /* padding-bottom: 18%; */
+    z-index: .5;
+}
+li:hover {
+	text-decoration: underline;
+	/* text-decoration-color: red; */
+}
+.article {
+    width: 1000px;
+    clear: both;
+    float: left;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+.features {
+	text-align: center;
+}
+.featured {
+	display: flex;
+}
+.featured-image {
+	margin-left: 23px;
+	font-size: 14px;
+}
+h2.mb-feature {
+	font-family: "hiragino kaku gothic";
+}
+span {
+	display: block;
+	font-weight: 600;
+	color: black;
+}
+.featured-image >h3 {
+	text-align: center;
+	font-size: 19px;
+	font-weight: 900;
+}
+.featured-image > p {
+	font-weight: 900;
+}
+.article.feature > img{
+	width:100%;
+	height: auto;
+}
+.top-link {
+	float: right;
+}
+.hair-growth {
+	background-color: rgba(216, 216, 216, 0.52);
+	margin-top: 98px;
+	align-content: center;
+	border:solid rgba(216, 216, 216, 0.05);
+	border-radius: 20px;
+	width: 939px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hair-growth-feature {
+	width: 900px;
+	margin: 0 auto;
+	height: auto;
+	margin-top: 50px;
+}
+.feature2 {
+	text-align: center;
+	font-weight: normal;
+	font-family: "ヒラギノ角ゴ Pro W3";
+}
+.title-feature {
+	text-align: center;
+	font-size: 15px;
+	   font-weight: bolder;
+	font-family: helvetica;
+}
+.title-feature2 {
+	margin-top: 34px;
+	background-color: black;
+	padding-top: 9px;
+	/* padding-bottom: 1px; */
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	height: 36px;
+}
+.hairgrowth-feature {
+	display: inline-flex;
+	font-weight: 800;
+	font-family: helvetica;
+	font-size: 17px;
+	border: 1px solid#ccc;
+	border-color:black;
+	/*border-right-color: black;
+	border-left-color: black;*/
+}
+span.red {
+	color: red;
+	font-size: 17px;
+	/* text-decoration: underline; */
+	font-weight: 900;
+}
+body > div > div.content > div > div > div > div.hair-growth > div > div:nth-child(6) {
+	border: none;
+}
+.link {
+	display: flex;
+	text-align: right;
+	margin-left: 487px;
+	margin-top: 15px;
+	margin-bottom:30px;
+}
+.top-link2 {
+	margin-right: 10px;
+}
+.top-link3{
+	margin-left: 10px;
+}
+.campaign {
+	margin-top: 16px;
+	position: relative;
+	margin-left: 107px;
+	margin-right: auto;
+}
+.latest-information {
+	margin-left: 65px;
+}
+h2.information-title {
+	text-align: center;
+	font-family: helvetica;
+	margin-top: 31px;
+}
+.info-1 {
+	display: none;
+	position:relative;
+}
+.box-1,.box-2,.box-3 {
+	margin-right: 24px;
+	margin-top: 15px;
+}
+div.info-category > img {
+	margin-top: 16px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.info {
+	display: flex;
+}
+.article-title {
+	width: 236px;
+	margin-top: -15px;
+}
+.information {
+	font-weight: 500;
+	font-family: helvetica
+}
+.top-link4 {
+	float: right;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.treatment {
+	clear: both;
+	text-align: center;
+	margin-left: 43px;
+}
+.mastfooter {
+	background-image: url(/img/bg.png);
+}
+.nav-footer {
+	background-color: #ccc;
+	height: auto;
+	padding-bottom: 1px;
+}
 
+.nav-footer-main {
+	margin-left: 174px;
+	padding-top: 10px;
+	/* padding-bottom: 1px; */
+	font-weight: 700;
+}
+.nav-footer-main > ul li {
+	display: inline;
+}
+.nav-footer-main > ul li:before{
+	content:"/";
+	margin:17px;
+}
+#colophon > div > div.footer > div.nav-footer > div > ul > li:nth-child(1):before{
+	display:none;
+}
+.call-bottom {
+	float: right;
+	margin-top: 18px;
+	margin-right: 48px;
+	padding-bottom: 25px;
+}
+#colophon > div > div.footer > div.mastfooter > div.header-logo > img {
+	margin-top: 10px;
+	margin-left: 50px;
+}
+#footer > .footer-social {
+    float: left;
+    margin-left: 56px;
+    display: inline-flex;
+    width: auto;
+    }
+header.entry-header {
+	display: none;
+}
+.contact-info {
+	margin: 0 auto;
+	margin-left: 42px;
+	width:  362px;
+	color: white;
+	float: left;
+}
+.calendar {
+	float: left;
+	color: white;
+}
+.copyright{
+	clear:both;
+	text-align:center;
+	color:white;
+	margin-top: 15px;
+	margin-bottom: 19px;
+	padding: 15px;
+}
+.wrap {
+	clear: both;
+}
+.sidebar {
+	float: right;
+	width: 334px;
+	/*position: absolute;*/
+    left: 77%;
+}
+.calendar-info {
+	margin: 0 auto;
+	text-align: center;
+}
+.calendar > h2.sbc-title {
+	display: none;
+}
+.side-nav-menu {
+	margin: 0 auto;
+	text-align: center;
+}
+h4.menu-title {
+	text-align: center;
+	color: black;
+	font-weight: 700;
+}
+ul#side-menu {
+	display: grid;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-weight: 600;
+}
+ul#side-menu > li {
+	border-bottom: 1px solid #000;
+    border-bottom-style: dashed;
+	padding: 10px;
+	/* width: 328px; */
+}
+ul#side-menu > li:after {
+    content: ">";
+    float: right;
+    color: #b1b1b1;
+}
+ul#side-menu li a:hover {
+	opacity: 2;
+}
+ul li a:hover{
+	text-decoration-color: red;
+}
+ul li a:visited{
+	text-decoration:underline;
+    text-decoration-color:red;
+    color: red;
+}
+ul.header-menu {
+	display: flex;
+	font-weight: 600;
+}
+	
+.fb-page {
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+.amebo-page {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+h2.posts {
+	text-align: center;
+	font-weight: 600;
+	color: black;
+	font-size: 15px;
+	padding-top: 15px;
+}
+.posts {
+	width: 210px;
+	text-align: center;
+	background-color: #ccc;
+	height: 313px;
+	margin: auto;
+}
+.side-menu {
+	width: 210px;
+	margin: auto;
+}
+h5.calendar{
+	text-align: center;
+	margin-left: 97px;
+	}
+.calendar-info > #sbc-calendar {
+	float: left;
+	margin: 0 63px 30px 63px !important;
+	width: 210px !important;
+}
+h2.sbc-title {
+	font-weight: 500;
+	color: black;
+	font-size: 22px;
+	display: none;
+}
+container {
+	padding-top: 10px;
+	/*background-color: #f9f3f3;*/
+	width: 100%;
+	height: auto;
+}
+#post-18 > div > div > div.container > div.article > div.hair-growth > div > div:nth-child(3):after {
+	color: #efeaea;
+	border: 20px solid;
+	background-color: #f1f1f1;
+	position: relative;
+	margin: 0 auto;
+	content: "";
+	width: 15px;
+	top: 308px;
+	height: 0px;
+	border-image: none;
+   border-color: rgba(0, 0, 0, 0.95) transparent rgba(241, 241, 241, 0) transparent;
+	left: -435px;
+}
+.hair-growth:before {
+	color: rgba(255, 255, 255, 0);
+	border: 20px solid;
+	background-color: rgba(243, 243, 243, 0.12);
+	position: absolute;
+	/* margin: 0 auto; */
+	content: "";
+	/* width: 15px; */
+	/* top: 176px; */
+	height: 0px;
+	border-image: none;
+	border-color: rgba(0, 0, 0, 0) transparent rgb(235, 235, 235) transparent;
+	margin-left: 450px;
+	margin-top: -43px;
+}
+div#thumbnail-container {
+	margin-left: 105px;
+}
+h4.calendar {
+	text-align: center;
+	margin: 0 auto;
+	padding-left: 81px;
+	font-family: helvetica;
+	padding-top: 15px;
+	padding-bottom: 16px;
+}
+#post-18 > div > div > div.container > div.article > div.features > h2 > span > span:before ,
+h2.hg-feature > span:before,h2.information-title > span:before{
+	content: "";
+	color: rgba(76, 68, 68, 0.24);
+	position: absolute;
+	border: 1px solid;
+	width: 28px;
+}
+#post-18 > div > div > div.container > div.article > div.features > h2 > span > span:before {
+	left: 411px;
+	top: 842px;
+}
+h2.hg-feature > span:before {
+	left: 386px;
+	top: 1528px;
+}
+h2.information-title > span:before{
+	left:434px;
+	top:2579px;
+}
 
+#post-18 > div > div > div.container > div.article > div.features > h2 > span > span:after,
+h2.hg-feature > span:after,h2.information-title > span:after {
+	content: "";
+	color: rgba(76, 68, 68, 0.24);
+	position: absolute;
+	border: 1px solid;
+	width: 28px;
+}
+#post-18 > div > div > div.container > div.article > div.features > h2 > span > span:after {
+	left: 567px;
+	top: 842px;
+}
+h2.hg-feature > span:after{
+	left: 580px;
+	top: 1528px;
+}
+h2.information-title > span:after{
+	left:598px;
+	top:2579px;
+}
+h4.calendar > span:before {
+	content: "";
+	color: rgba(76, 68, 68, 0.24);
+	position: absolute;
+	border: 1px solid;
+	width: 28px;
+	right: 266px;
+	top: 136px;
+}
+h4.calendar > span:after {
+	content: "";
+	color: rgba(76, 68, 68, 0.24);
+	position: absolute;
+	border: 1px solid;
+	width: 28px;
+	right: 69px;
+	top: 136px;
+}
+h4.menu-title:before{
+	content: "";
+	color: rgba(76, 68, 68, 0.24);
+	position: absolute;
+	border: 1px solid;
+	width: 71px;
+	right: 214px;
+	top: 477px;
+}
+h4.menu-title:after{
+	content: "";
+	color: rgba(76, 68, 68, 0.24);
+	position: absolute;
+	border: 1px solid;
+	width: 71px;
+	right: 53px;
+	top: 477px;
+}
+/*------------------------------------------------------------------
+			マイクロバブルにて page(2)
+---------------------------------------------------------------------*/
+.article1{
+	float:left;
+	width:1000px;
+	clear:both;
+}
+.micro-header {
+    text-align: center;
+    background-image: url(/img/microbubble-header.png);
+    background-size: cover;
+    margin-left: 22px;
+    height: 30vw;
+    background-position-y: 100%;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    width: 939px;
+    margin: auto;
+}
+.micro-structure-desc {
+    background-image: url(/img/microbubble-img2.png);
+    background-size: cover;
+    height: 20vw;
+    background-position-y: 100%;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.microbubbles-energy {
+    background-image: url(/img/bg-after-step3.png);
+    background-size: cover;
+    height: 30vw;
+    background-position-y: 100%;
+    width: 939px;
+    margin: auto;
+}
+.micro-structures {
+    margin: 0 auto;
+    text-align: center;
+    width: 939px;
+}
+p.structure-.description {
+    font-weight: 600;
+}
+.microbubbles-characteristics {
+    background-color: rgba(193, 193, 193, 0.38);
+    border-radius: 2;
+    border: 0px solid;
+    border-radius: 14px;
+    width: 939px;
+    margin: auto;
+}
+h2#microbubbles-title {
+    text-align: center;
+    padding-top: 34px;
+}
+.microbubbles-diff1,.microbubbles-diff2,.microbubbles-diff3 {
+    border: 1px solid;
+    width: 835px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color:white;
+}
+.micro-last {
+    width: 939px;
+    margin: auto;
+}
+.diff-header {
+    background-color: black;
+    height: 64px;
+    padding: 15px 0;
+}
+span.diff-title {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+.step-1 {
+    display: inline-flex;
+}
+.step-1-img {
+    margin: 20px;
+}
+.step-1-desc {
+    margin: 17px;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding-top:15px;
+}
+.diff-content {
+    background-color: white;
+}
+.step-2-desc {
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 0 27px;
+    padding: 0 7px;
+}
+.step-2-img {
+    margin: 18px 25px 18px 25px;
+    padding: 18px 25px 18px 25px;
+}
+.step3-desc {
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 15px;
+    padding: 0 14px;
+}
+.step-3-desc,.step-3-1-desc,.step3-1-desc {
+    font-size: 1.0em;
+    font-weight: 600;
+    font-family:monospace;
+}
+/*div#step3-content {
+    margin-right: 17px;
+}*/
+.step-3-img-desc {
+    display: flex;
+}
+.full-content {
+    margin: 0 26px;
+}
+div#step3-1-img {
+    margin: 0 28px;
+}
+div#microbubbles-container {
+    margin: 10px 25px;
+    /* background-color: red; */
+    padding-bottom: 25px;
+}
+.bg-energy {
+    text-align: center;
+}
+.bg-energy-title {
+    padding: 76px 0 0 0;
+}
+span.energy {
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.bg-energy-desc {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.0em;
+}
+.micro-last-image {
+    display: inline-flex;
+    margin: 0 auto;
+}
+.last-image1 {
+    padding: 0 25px;
+}
+h3#title {
+    text-align: center;
+    padding: 6px;
+}
+p.desc {
+    font-size: 1.0em;
+    font-weight: 600;
+    font-family: monospace;
+}
+.last-image1 {
+    margin: 0 25px;
+    position: relative;
+    width: -webkit-fill-available;
+}
+.last-image2 {
+    /* padding: 10px 58px; */
+    width: -webkit-fill-available;
+    margin: 0 25px;
+}
+.last-image-title {
+    width: 417px;
+}
+.last1,.last2 {
+    width: 250px;
+    margin: auto;
+}
+/*------------------------------------------------------------------
+					施術事例 page(3)				
+---------------------------------------------------------------------*/
+span.header-title {
+    text-align: center;
+}
+.hair-treatment-header {
+    margin:auto;
+}
+div#hair-treatment-desc-main {
+    background-color: rgba(204, 204, 204, 0.6);
+    border: 0px solid;
+    border-radius: 11px;
+    width: 939px;
+    margin: auto;
+}h2.desc-main {
+    padding: 30px;
+    padding-bottom: 0;
+    font-size: 1.3em;
+    text-align:center;
+}
+p.description {
+    padding-bottom: 32px;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-align:center;
+}
+.hair-treatment-faqs {
+    display: flex;
+    width: 939px;
+    margin: auto;
+}
+.hair-faqs1,.hair-faqs2 {
+    background: rgb(224, 224, 224);
+    border: 0px solid;
+    border-radius: 16px;
+    margin-right: 14px;
+}
+h2#hair-faqs1-header,h2#hair-faqs2-header {
+    text-align: center;
+    padding-top: 38px;
+    font-size: 1.2em;
+}
+.hair-faq1-desc,.hair-faq2-desc {
+    margin-top: -30px;
+    margin-left: 17px;
+    margin-right: 5px;
+}
+p.faqs1-desc,p.faqs2-desc {
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 0 4px;
+}
+.microbubbles-effects {
+    width: 939px;
+    margin: auto;
+}
+.microbubbles-effects-header {
+    text-align: center;
+    padding-top: 19px;
+}
+.microbubbles-effects-desc {
+    margin-top: -38px;
+}
+p.micro-effects-desc {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 900;
+    line-height: 1.3;
+    font-family: monospace;
+}
+.results {
+    margin: auto;
+    border: 1px solid;
+    width: 939px;
+}
+.results-title {
+    background-color: black;
+}
+span.result-title {
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 0.9em;
+    /* font-weight: 500; */
+}
+div#results-title {
+    height: 64px;
+}
+.results-content {
+    margin: auto;
+    width: 800px;
+}
+p.result-desc {
+    text-align: center;
+    font-weight: 800;
+}
+.before,.after {
+    display: flex;
+}
+.result-before1,.result-before2,.result-after1,.result-after2,.img-before,.img-after,.img-before50,.img-after50,.img-before40,.img-after40 {
+    margin: auto;
+}
+.before {
+    margin-bottom: 34px;
+}
+div#results-after,div#results-after2,div#results-after50,div#results-after40 {
+    width: 939px;
+    margin: auto;
+    border: 1px solid;
+}
+p.after-title,p.after-title2,p.after-title50,p.after-title40 {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-weight: 600;
+    font-size: 1.0em;
+}
+.result-after-images,.result-after-images2,.result-after-images50,.result-after-images40 {
+    display: flex;
+    padding:0 53px;
+}
+
+/*-------------------------------------------------------------------------------------------------	
+								施術の流れ(page4)
+--------------------------------------------------------------------------------------------------*/
+
+#treatment-title {
+    width: 939px;
+    margin: auto;
+    background: rgba(204, 204, 204, 0.45);
+}
+div#cost,div#time {
+    /* margin: 0 154px; */
+    padding-top: 25px;
+    padding-right: 61px;
+}
+.table,.required-time {
+    display: flex;
+    margin: auto;
+    width: 500px;
+}
+hr.white {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    width: 52em;
+}
+.treatment-flow,.treatment-flow2,.treatment-flow3,.treatment-flow4,.treatment-flow5,.treatment-flow6 {
+    width: 939px;
+    margin: auto;
+}
+.content {
+    display: flex;
+}
+.time-limit {
+    float: left;
+    position: absolute;
+}
+.description {
+    margin-left: 19px;
+    margin-top: 27px;
+}
+.image {
+    margin-left: 62px;
+    margin-top: 27px;
+}
+p#title {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+p#desc {
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: monospace;
+	width: 526px;
+    line-height: 1.8;
+}
+span.red2 {
+    display: inline;
+    color: red;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+.vertical-line {
+    border-left: 0.2em solid rgba(99, 97, 97, 0.64);
+    height: 192px;
+    position: absolute;
+    float: left;
+    /* top: 0px; */
+    left: 74px;
+    margin-top: 99px;
+}
+/*----------------------------------------------------------------------------------------------
+				料金 (page5)
+------------------------------------------------------------------------------------------------*/
+.table-price {
+    width: 939px;
+    margin: auto;
+}
+table.trial-price {
+    border: 2px solid rgba(204, 204, 204, 0.7);
+    margin-top: -21px;
+    display: table;
+}
+p.table-price-title {
+    text-align: right;
+    font-weight: 800;
+    font-size: 0.9em;
+}
+tbody {
+    font-size: 1.0em;
+    font-weight: 600;
+}
+td {
+    padding: 1em;
+    border: 2px solid #dbdbdb;
+}
+p.center {
+    text-align: center;
+    margin:auto;
+}
+#table-price > table > tbody > tr:nth-child(1) > td:nth-child(1),
+#table-price > table > tbody > tr:nth-child(2) > td:nth-child(1),
+#table-price > table > tbody > tr:nth-child(3) > td:nth-child(1),
+#table-price > table > tbody > tr:nth-child(4) > td:nth-child(1),
+#table-price > table > tbody > tr:nth-child(5) > td:nth-child(1),
+#table-price > table > tbody > tr:nth-child(6) > td:nth-child(1),
+#price-treatment > div.price-treatment-table > table > tbody > tr:nth-child(2) > td:nth-child(1),
+#price-treatment > div.price-treatment-table > table > tbody > tr:nth-child(3) > td:nth-child(1),
+#price-treatment > div.price-treatment-table > table > tbody > tr:nth-child(4) > td:nth-child(1) {
+    background: rgba(204, 204, 204, 0.38);
+}
+.payment-method {
+    background-image: url(/img/price-bg.png);
+    width: 939px;
+    margin: auto;
+}
+div#payment-method {
+    text-align: center;
+    padding-top: 23px;
+}
+.title-description {
+    padding-top: 17px;
+    font-size: 1.0em;
+    font-weight: 600;
+}
+.payment {
+    width: 789px;
+    margin: auto;
+    border: 2px solid #ccc;
+}
+div#payment {
+    display: flex;
+}
+.payment-left, .payment-right {
+    width: 400px;
+    margin-top: 23px;
+    margin-right: 21px;
+    margin-left: 21px;
+}
+p#payment-left {
+    text-align: right;
+    font-weight: 800;
+}
+p#payment-right {
+    text-align: left;
+    font-weight: 800;
+}
+.price-treatment {
+    width: 939px;
+    margin: auto;
+}
+.price-treatment-header {
+    text-align: center;
+    padding: 29px 0;
+}
+div#price-treatment-title {
+    display: inline-flex;
+    font-size: 0.9em;
+    font-weight: 900;
+}
+.price-treatment-table {
+    text-align: center;
+}
+p.price-treatment-title {
+    position: absolute;
+    left: 504px;
+    text-align: center;
+}
+p.price-treatment-title2 {
+    float: right;
+    position: absolute;
+    left: 776px;
+}
+td#registration-trial {
+    background-color: rgba(236, 177, 115, 0.4);
+}
+.circle-price2 {
+    background-image: url(/img/circle-price2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 43px !important;
+}
+.circle-price {
+    background-image: url(/img/circle-price.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 43px !important;
+}
+.triangle-price{
+    background-image: url(/img/triangle-price.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 43px !important;
+}
+.note {
+    text-align: center;
+    padding: 10px;
+}
+p#red {
+    color: red;
+    font-size: 1.0em;
+    font-weight: 600;
+}
+/*--------------------------------------------------------------------------------------
+				店舗案内(page 6)
+----------------------------------------------------------------------------------------*/
+.store-guide-info {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-title2 {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+.about-title {
+    padding: 44px;
+}
+.about-title2-img {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.about-title2-img {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+table.about-table {
+    width: 920px;
+    margin: 0px auto;
+    border-style: hidden;
+    border-color: rgba(204, 204, 204, 0.35);
+}
+tr#about-table {
+    font-size: 1.3em;
+    font-weight: 600;
+        border-style: dotted;
+}
+#about-table > td:nth-child(1) {
+    width: 20%;
+    border-right-style: hidden;
+}
+#about-table > td:nth-child(2) {
+    font-size: 0.9em;
+}
+div#about-manager {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+.about-manager-title,div#manager-quote {
+    text-align: center;
+}
+p#manager-title {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+div#manager-image {
+    text-align: center;
+    margin: 0 auto;
+}
+.manager-quote {
+    margin: 0 auto;
+    /* text-align: center; */
+    width: 1000px;
+}
+h4#quote {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.quote > p {
+    font-size: 1.0em;
+    font-weight: 500;
+}
+.location {
+    width: 1000px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+div#location > p {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+}
+.map-location {
+    text-align: center;
+    margin: 0 auto;
+    width: 900px;
+}
+/*--------------------------------------------------------------------------------------
+				運営会社(page 7)
+----------------------------------------------------------------------------------------*/
+.contact-form {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+h3#contact-title {
+    text-align: center;
+}
+table.contact-form_table {
+    width: 900px;
+    margin: 0 auto;
+}
+td#contact-form_table {
+    background-color: rgba(204, 204, 204, 0.32);
+    padding-left: 30px;
+    margin: 0 auto;
+    /* width: 200px; */
+}
+
+/*--------------------------------------------------------------------------------------
+				ご予約(page 8)
+----------------------------------------------------------------------------------------*/
+.reservation-form {
+    width: 900px;
+    margin: 0 auto;
+}
+span#reservation-title {
+    text-align: center;
+}
+.reservation-form-call {
+    width: 900px;
+    margin: 0 auto;
+}
+.reservation-sub-header {
+    margin: 0 auto;
+    text-align: center;
+}
+.reservation {
+    width: 900px;
+    margin: 0 auto;
+}
+tr.contact-form {
+    border: 0px solid white;
+    border-style: hidden;
+}
+td.left {
+    border-left-style: hidden;
+    border-right-style: hidden;
+    width:200px;
+}
+span.required {
+    display: inline;
+    color: red;
+}
+#contact-form > tbody > tr:nth-child(3) > td:nth-child(2) {
+    border-style: none;
+}
+#contact-form > tbody > tr:nth-child(1) > td:nth-child(2) > span > select {
+    background-color: rgba(189, 188, 188, 0.61);
+}
+
+input#request-date {
+    width: 50%;
+}
+#contact-form2 > tbody > tr:nth-child(2) > td.right > span:nth-child(1) {
+    padding-right: 25px;
+}
+#contact-form2 > tbody > tr:nth-child(2) > td.right {
+    display: flex;
+    border-style: hidden;
+}
+.submit-button {
+    text-align: center;
+    margin: 0 auto;
+}
 /*----------------------------------------------------------------------------------------------------
 				Responsive Style
 ------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width:769px){
+	body{
+		margin:0 auto;
+		padding:0;
+		min-width:1500px;
+	}
+	#page{
+		margin:0;
+		padding:0;
+	}
+	.mast-header {
+    min-width:1500px;
+    margin:0 auto;
+    padding:0;
+}
+.article,.article1{
+	min-width:1000px;
+	margin:0 auto;
+}
+.article1,div#microbubbles-container{
+	padding:0;
+	margin:0;
+}
+.sidebar {
+    min-width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    left: 60%;
+}
+.calendar-info {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20%;
+}
+}
 /*Responsive Styles*/
 .show-menu {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -4826,8 +5577,15 @@ object {
 input[type=checkbox]{
 	display: none;
 }
-input[type=checkbox]:checked ~ .header-menu{
-	display: block;
+input[type=checkbox]:checked ~ .header-menu {
+    display: block;
+    z-index: auto;
+    position: fixed;
+    top: 7%;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 0 auto;
 }
 ul {
 	list-style-type:none;
@@ -4846,18 +5604,34 @@ li ul {
 }
 li ul li a {
 	width: auto;
-	min-width: 100px;
+	/*min-width: 100px;*/
 	padding: 20px 20px;
 }
-@media only screen and (max-width: 767px){
+@media only screen and (min-width:321px) and (max-width:768px){
+	body{
+		margin:0 auto;
+		padding:0;
+		/*min-width:500px;*/
+	}
+	#page{
+		width:100%;
+		margin:0 auto;
+		padding:0;
+	}
+	div#content {
+    	padding: 0;
+    	width:145%;
+	}
 	.main-header {
-		width: 100%;
+		width: 147%;
 		overflow: hidden;
 	}
-	.header-logo img {
-    width: 85%;
+	.map {
+	    display: none;
 	}
-	
+	.social-links {
+	    display: none;
+	}
 	label.show-menu {
 		cursor: pointer;
 	}
@@ -4865,43 +5639,79 @@ li ul li a {
 	display:block;
 	height:auto;
 	}
+	#masthead > div > div > div.navigation > div > ul > li {
+    margin-right: 55px;
+    border-bottom: black;
+    border-bottom-style: dashed;
+    font-size: 2.0em;
+	}
 	.main-menu ul li {	
 		padding: 5px !important;
 		text-align: center !important;
 		background-color: rgba(204, 204, 204, 0);
 	}
 	.main-menu {
-		height: 19px;
-		width: 100%;
-	}
+    height: 19px;
+    width: 100%;
+    position: relative;
+    top: -47%;
+    right: 0;
+    bottom: 0;
+}
+	ul.header-menu > li:after {
+    content: ">";
+    float: right;
+    color: #010101;
+}
 	ul {
-		position: static;
-		display: none;
-	}
+    position: static;
+    display: inline-block;
+    width: 90%;
+}
 	ul li, li a {
 		width: 100%;
 	}
-	ul.header-menu, ul.header-menu li a {
-    background-color: rgba(204, 204, 204, 0.46);
-}
 	.navigation {
-	    height:60px;
-	    width: 100%;
-	}
+    height: 67px;
+    width: 100%;
+    position: relative;
+    top: 15%;
+    left: -4%;
+    right: 0;
+    float: right;
+    /* z-index: 12; */
+}
 	.header-logo {
-	    width: 100%;
-	    float: none;
-	    padding: 0 !important;
-	    margin-top: 4px;
-	    margin-bottom: 6px;
-	}
+    /* width: 100%; */
+    /* float: none; */
+    /* padding: 0 !important; */
+    /* margin-top: 4px; */
+    /* margin-bottom: 6px; */
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
 	label.show-menu {
-	    cursor: pointer;
-	    height: 43px;
-	    padding-top: 8px;
-	    padding-right: 24px;
-	    background-color: rgba(204, 204, 204, 0.38);
-	}
+    /* cursor: pointer; */
+    /* height: 43px; */
+    /* padding-top: 8px; */
+    /* padding-right: 24px; */
+    /* background-color: rgba(204, 204, 204, 0.38); */
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    z-index: 12;
+    top: 5px;
+}
+.header-top-thumbnail > img {
+    width: 100%;
+    /* position: relative; */
+}
+	#masthead > div > div > div.navigation > div > label > img {
+    border: 1px solid black;
+    background: black;
+}
 	.menu-links ul li {
 	    padding: 5px !important;
 	    text-align: center !important;
@@ -4913,11 +5723,18 @@ li ul li a {
 	    width: 100%;
 	}
 	.navigation ul {
-           position: static;
-	    display: none;
-	}
+    position: absolute;
+    display: none;
+    top: 43px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* height: 92%; */
+    z-index: 1;
+}
 	.navigation ul li, li a {
            width: 100%;
+           background-color: rgba(236, 236, 236, 0.51);
 	}
 	.menu-links ul li:after {
     	    content: "";
@@ -4927,7 +5744,7 @@ li ul li a {
 	    content: "";
 	    margin: 0;
 	}
-	 #masthead{
+ #masthead{
 		width:90%;
 		display:block;
 	 }
@@ -4939,8 +5756,12 @@ li ul li a {
 	    display:block;
 	}
 	.nav-footer-main{
-		display:none;
+		display:inline;
+		margin:0 auto;
 	}
+	.nav-footer {
+    width: 100%;
+}
 	.article {
 	    width: 100%;
 	    /*clear: both;
@@ -4951,13 +5772,15 @@ li ul li a {
 		display:block;
 		text-align:center;
 	}
-	.top-link,{
+	.top-link{
 		margin:0 auto;
 		text-align:center;
 	}
-	.hair-growth{
-		width:100%;
-	}
+	.hair-growth {
+    width: 100%;
+    margin: 100px auto 0;
+    padding: 0;
+}
 	.hair-growth-feature{
 		width:100%;
 	}
@@ -4982,7 +5805,7 @@ li ul li a {
 	    margin-top: 16px;
 	    position: relative;
 	    margin-right: auto;
-	    margin-left:auto;
+	    margin-left:5%;
 	}
 	div#thumbnail-container {
     margin:0 auto;
@@ -5003,12 +5826,13 @@ li ul li a {
     text-align: center;
     margin-left: auto;
     }
-    .sidebar {
+   .sidebar {
     width: 100%;
-	}
-	.calendar-info{
-		width:100%;
-	}
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
 	.side-menu {
 	    width: 60%;
 	    margin: auto;
@@ -5041,11 +5865,12 @@ li ul li a {
 	.calendar{
 		margin-left:auto;
 		margin-right:auto;
+		text-align:center;
 	}
 	.contact-info {
 	    margin: 0 auto;
 	    position: relative;
-	    float: initial;
+	    float: none;
 	}
 	.reserve-form{
 		clear:both;
@@ -5070,30 +5895,176 @@ li ul li a {
     /* margin: 0 auto; */
     margin-left: 23%;
 	}
-}
-
-/*------------------------------------------------------------------
-			マイクロバブルにて page(2)
----------------------------------------------------------------------*/
-.article1{
-	float:left;
-	width:1000px;
-	clear:both;
+	div#footer{
+	width:100%;
+	}
+/*---------------------page2----------------------------------*/
+	.article1 {
+    width: 100%;
+    margin: 0 auto;
+    position:relative;
 }
 .micro-header {
     text-align: center;
-    background-image: url(/img/microbubble-header.png);
-    background-size: cover;
-    height: 30vw;
-    background-position-y: 100%;
-    margin-top: 55px;
-    margin-bottom: 50px;
+    width: 100%;
+    margin: auto;
 }
-div#microstructure-img {
-    background-image: url(/img/microbubble-img2.png);
-    background-size: cover;
-    height: 30vw;
-    background-position-y: 100%;
-    margin-top: 55px;
-    margin-bottom: 50px;
+.micro-structures {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.microbubbles-characteristics {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    /* top: 0; */
+    right: 0;
+    left: 0;
+    display: block;
+}
+.microbubbles-diff1, .microbubbles-diff2, .microbubbles-diff3 {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.step-1,.step-2,.step-3-img-desc {
+    display: block;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+.step-1-img {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.step-1-desc, .step-2-desc {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 4%;
+}
+#microbubbles-container > div.microbubbles-diff1 > div.diff-content > div > div.step-1-desc > p > br,
+#microbubbles-container > div.microbubbles-diff3 > div.diff-content3 > div > div.full-content > div > div.step3-1-desc > p > br,
+#post-27 > div.main > div > div.article1 > div.micro-last > div > div.last-image1 > div.last-image-title > p.desc > br,
+#desc > br {
+    display: none;
+}
+div#step3-img,div#step3-1-img {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.microbubbles-energy {
+    height: 37vw;
+    width: 100%;
+    margin: auto;
+}
+   .micro-last,.last-image-title,div#hair-treatment-desc-main,.microbubbles-effects,
+   .results ,div#results-after, div#results-after2, div#results-after50, div#results-after40,
+   .table-price,.payment-method,.price-treatment{
+   width: 100%;
+    margin: auto;
+}
+.micro-last-image {
+    display: block;
+    margin: 0 auto;
+}
+/*---------------------page3-----------------------------------------------*/
+.hair-treatment-header {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+div#hair-treatment-header {
+    width: 90%;
+    margin:0 auto;
+}
+.hair-treatment-faqs {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.hair-faqs1, .hair-faqs2 {
+   margin:auto;
+   text-align:center;
+   padding-bottom:15px;
+}
+.microbubbles-effects-desc,#treatment-title,.about-title2 {
+    width: 90%;
+    margin: 0 auto;
+}
+.result-after-images, .result-after-images2, .result-after-images50, .result-after-images40{
+	display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+/*----------------------------page4-------------------------------------------*/
+ .treatment-flow, .treatment-flow2, .treatment-flow3, .treatment-flow4, .treatment-flow5, .treatment-flow6 ,div#about-manager,.location{
+    width: 90%;
+    margin: auto;
+}
+.content {
+    display: block;
+}
+.description {
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 0 10%;
+}
+p#desc {
+    width: 90%;
+    margin:0 auto;
+}
+p#title,.map-location {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.vertical-line {
+    height: 356px;
+}
+/*----------------------------page5-------------------------------------------*/
+.payment,table.about-table,.manager-quote {
+   width: 95%;
+    margin: auto;
+}
+p.price-treatment-title {
+    left: 0;
+    right: 0;
+}
+p.price-treatment-title2 {
+    left: 60%;
+    right: 0;
+}
+/*----------------------------page6-------------------------------------------*/
+.store-guide-info {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*--------------------------page7----------------------------------------*/
+.contact-form {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+table.contact-form_table {
+    width: 90%;
+    margin: 0 auto;
+}
+/*--------------------------page8----------------------------------------*/
+.reservation-form {
+    width: 90%;
+    margin: 0 auto;
+}
+.reservation-form-call {
+    width: 90%;
+    margin: 0 auto;
+}
+.reservation {
+    width: 90%;
+    margin: 0 auto;
+}
 }

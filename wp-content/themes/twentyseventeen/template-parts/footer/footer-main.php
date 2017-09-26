@@ -19,7 +19,7 @@
     					<li> <a href="/施術の流れ/">  施術の流れ</a> </li>
     					<li> <a href="/料金/"> 料金 </a> </li>
     					<li> <a href="/店舗案内/"> 店舗案内</a> </li>
-    					<li> <a href="/アクゼス-map/"> アクゼス MAP</a> </li>
+    					<li> <a href="/店舗案内/#location"> アクゼス MAP</a> </li>
     					<li> <a href="/運営会社/"> 運営会社</a> </li>
     					<li> <a href="/ご予約/">  ご予約</a> </li>
     				</ul>

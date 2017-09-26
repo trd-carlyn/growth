@@ -2588,6 +2588,14 @@ function wp_head() {
 	 */
 	do_action( 'wp_head' );
 }
+function wp_sidebar() {
+    /**
+     * Prints scripts or data before the closing body tag on the front end.
+     *
+     * @since 1.5.1
+     */
+    do_action( 'wp_sidebar' );
+}
 
 /**
  * Fire the wp_footer action.
